@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1>Lipchey Yuriy</h1>
+    <header class="header">
+      <h1 class="header-title">Lipchey Yuriy</h1>
     </header>
     <main>
-      <section>
+      <section class="section">
         <h2>About me</h2>
-        <p>
+        <p class="section-content">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
           laboriosam sunt, natus placeat necessitatibus id ipsum quia optio,
           quidem rem nam blanditiis, corrupti porro esse ab a rerum! Tenetur nam
@@ -28,9 +28,9 @@
           recusandae animi fugiat?
         </p>
       </section>
-      <section>
+      <section class="section section-accent">
         <h2>Skills</h2>
-        <ul>
+        <ul class="section-content skills-section">
           <li>JavaScript</li>
           <li>Html</li>
           <li>CSS</li>
@@ -38,10 +38,10 @@
           <li>.NET</li>
         </ul>
       </section>
-      <section>
+      <section class="section">
         <h2>Projects</h2>
-        <ul>
-          <li>
+        <ul class="section-content project-section">
+          <li class="project-list-titem">
             <img
               class="project-image"
               src="img/casey-horner-G2jAOMGGlPE-unsplash.jpg"
@@ -66,7 +66,25 @@
           </li>
         </ul>
       </section>
-      
+      <section class="section">
+          <h2>Contact Me</h2>
+          <form class="section-content contact-section">
+              <div>
+                  <label> Name</label>
+              </div>
+              <input class="input" type="text">
+              <div>
+                <label> Email</label>
+            </div>
+            <input class="input" type="email">
+            <div>
+                <label>Message</label>
+            </div>
+             <textarea class="input input-no-resize" rows="7" cols="50"></textarea>
+             <div><button class="btn" type="submit">Send</button></div>
+          </form>
+      </section>
     </main>
+    <footer class="footer">Lipchey Yuriy</footer>
   </body>
 </html>
